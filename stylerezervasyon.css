@@ -2,7 +2,7 @@
 
 .reservation-section {
     padding: 60px 20px;
-    background-color: #f9f5f0; /* Açık bej arka plan */
+    background-color: #f9f5f0; 
     min-height: 80vh;
     display: flex;
     flex-direction: column;
@@ -50,11 +50,6 @@
     cursor: pointer;
 }
 
-.reservation-form button:hover {
-    background-color: #333;
-}
-
-/* Mobil uyum */
 @media (max-width: 768px) {
     .reservation-section {
         padding: 40px 10px;
