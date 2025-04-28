@@ -1,5 +1,5 @@
 .about-section {
-    background-image: url('images/tandırhane2.png'); /* kendi görsel adını yazabilirsin */
+    background-image: url('images/tandırhane2.png'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 }
 
 .about-content {
-    background-color: rgba(0, 0, 0, 0.6); /* yazı arkası siyah kutu */
+    background-color: rgba(0, 0, 0, 0.6); 
     color: white;
     padding: 30px;
     border-radius: 10px;
