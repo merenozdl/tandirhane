@@ -1,0 +1,21 @@
+.about-section {
+    background-image: url('images/tandırhane2.png'); /* kendi görsel adını yazabilirsin */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px 0 20px;
+}
+
+.about-content {
+    background-color: rgba(0, 0, 0, 0.6); /* yazı arkası siyah kutu */
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    text-align: center;
+    font-size: 18px;
+}

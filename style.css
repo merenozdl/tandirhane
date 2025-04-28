@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f5f0;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    .email-instagram {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 22px;
+    }
+    .hero p {
+        font-size: 14px;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+    .comment-container {
+        padding: 20px;
+    }
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e0905; 
+    padding: 15px 30px;
+}
+
+.logo img {
+    height: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffffff; 
+}
+.logo-text-container {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+    padding: 10px 30px;
+}
+
+.site-title {
+    color: white;      
+    font-size: 25px;
+    margin: 0;
+}
+
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+}
+footer .sitemap {
+    margin-top: 10px;
+}
+
+footer .sitemap h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #ccc;
+}
+
+footer .sitemap ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+footer .sitemap ul li a {
+    color: #ccc;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+footer .sitemap ul li a:hover {
+    color: #fff;
+}
+
+
+
